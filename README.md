@@ -20,7 +20,7 @@ composer require finller/laravel-insee-siren
 You can publish and run the migrations with:
 
 ```bash
-php artisan vendor:publish --tag="laravel-insee-siren-config"
+php artisan vendor:publish --tag="insee-siren-config"
 ```
 
 This is the contents of the published config file:
