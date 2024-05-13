@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Finller\InseeSiren\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class InseeSirenCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-insee-siren';
 
     public $description = 'My command';
 
