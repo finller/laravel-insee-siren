@@ -16,6 +16,7 @@ class InseeSirenServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('laravel-insee-siren')
+            ->hasTranslations()
             ->hasConfigFile();
     }
 
